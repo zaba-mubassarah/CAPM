@@ -49,18 +49,3 @@ module.exports["mySrvDemo"] = async (srv) => {
     return req.data;
   });
 };
-
-module.exports["mySrvDemoApp"] = (srv) => {
-  srv.on("READ", "getStudents", (req, res) => {
-    console.log("getStudent");
-  });
-  srv.on("READ", "getCourses", (req, res) => {
-    console.log("getCourses");
-  });
-  srv.on("READ", "getEnrollment", (req, res) => {
-    console.log("getEnrollment");
-  });
-  srv.on("READ", "getContents", (req, res) => {
-    console.log("getContents");
-  });
-};
