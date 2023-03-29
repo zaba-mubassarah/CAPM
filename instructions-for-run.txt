@@ -1,0 +1,3 @@
+clone first
+then run command 'npm i' and 'cds deploly'
+cds watch command
